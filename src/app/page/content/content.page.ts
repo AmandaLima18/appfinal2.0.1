@@ -61,7 +61,6 @@ export class ContentPage implements OnInit {
       + `categorias`)
       .subscribe(
         (res: any) => {
-
           // Prepara dados para a view (HTML)
           this.cat = res;
         }
